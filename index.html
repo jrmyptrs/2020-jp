@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="Web Designer, Front End Developer, Project Manager">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.typekit.net/zag2zqg.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+</head>
+
+<body>
+  <div class="cursor">
+    <div class="cursor__ball cursor__ball--big ">
+      <svg height="30" width="30">
+        <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+      </svg>
+    </div>
+
+    <div class="cursor__ball cursor__ball--small">
+      <svg height="20" width="20">
+        <circle cx="10" cy="10" r="2" stroke-width="0"></circle>
+      </svg>
+    </div>
+  </div>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <div class="jp-container">
+    <nav class="jp-nav">
+      <ul>
+        <li><a class="hoverable" href="#">About Me</a></li>
+        <li><a class="hoverable" href="#">My Work</a></li>
+        <li><a class="hoverable" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="jp-container__wrap">
+      <header class="jp-header">
+        <div class="jp-header__logo">
+          <a href="/"><h1 class="mono mono--bold">Jeremy Peters</h1></a>
+        </div>
+        <div class="jp-header__nav">
+          <button class="toggle-nav mono hoverable" id="toggleNav">Nav <span></span></button>
+        </div>
+      </header>
+      <section class="jp-hero jp-scene" style="min-height: 100vh;">
+        <div class="jp-wrap jp-wrap--max sans">
+          <p>I’m currently Web Director at <a href="https://verygreat.nyc" target="_blank" class="hoverable video-hover" data-hover="hover-vg">Very&nbsp;Great</a>, creating digital experiences for brands like <a href="https://wildone.com" target="_blank" class="hoverable video-hover" data-hover="hover-wo">Wild&nbsp;One</a>, <a href="https://staycourant.com" target="_blank" class="hoverable video-hover" data-hover="hover-ct">Courant</a>, and <a href="https://wandpdesign.com" target="_blank" class="hoverable video-hover" data-hover="hover-wp">w&amp;p</a>.</p>
+          <p>I'm a web designer, front end developer, and project manager with 10+ years of experience. Mostly Shopify and WordPress.</p>
+        </div>
+        <div class="jp-hero__video">
+          <video id="hover-vg" width="16" height="9" preload="" playsinline="" muted="">
+            <source src="video/hero_verygreat.mp4" type="video/mp4">
+          </video>
+          <video id="hover-wp" width="16" height="9" preload="" playsinline="" muted="">
+            <source src="video/hero_wp.mp4" type="video/mp4">
+          </video>
+          <video id="hover-ct" width="16" height="9" preload="" playsinline="" muted="">
+            <source src="video/hero_courant.mp4" type="video/mp4">
+          </video>
+          <video id="hover-wo" width="16" height="9" preload="" playsinline="" muted="">
+            <source src="video/hero_wildone.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+      <div class="jp-grid jp-grid--auto">
+        <div class="jp-grid__item">
+          <a href="#" class="hoverable">
+            <h3>Technical Skills &gt;</h3>
+          </a>
+        </div>
+        <div class="jp-grid__item">
+          <a href="#" class="hoverable">
+            <h3>More About Me &gt;</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+
+</html>
